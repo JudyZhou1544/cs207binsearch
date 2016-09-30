@@ -3,10 +3,6 @@ from pytest import raises
 from binsearch import binary_search
 import numpy as np
 
-from pytest import raises
-from binsearch import binary_search
-import numpy as np
-
 def test_wired_data_1():
     with raises(TypeError):
         binary_search([None, None],1) 
