@@ -47,3 +47,6 @@ def test_search_in_bound_1():
     
 def test_search_in_bound_2():
     assert binary_search([1,2,3,4,5],3,0,3) == 2
+
+def test_multiple_num():
+    assert binary_search([1,2,2,3,4,5],2) == (1 or 2)
